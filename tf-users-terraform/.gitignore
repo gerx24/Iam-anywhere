@@ -1,0 +1,12 @@
+cli*
+/certificates/*
+!/certificates/client.pem
+!/certificates/client.key
+!/certificates/PrivateCA.pem
+co*
+cert_*
+**/.terraform
+*.tfstate
+*.tfstate.*
+.terraform*
+tfplan
